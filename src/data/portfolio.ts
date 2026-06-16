@@ -204,23 +204,23 @@ export const sections: PortfolioSection[] = [
 
 export const projects: PortfolioProject[] = [
   {
-    slug: "secure-ticketing",
-    title: "Secure Ticketing",
+    slug: "job-application-tracker",
+    title: "Job Tracker",
     period: "2026",
     summary:
-      "En skolprojekt-ide for ett internt supportsystem med fokus pa behorighet och sparbarhet.",
-    tech: ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      "Ett fullstack-projekt for att samla ansokningar, statusar och uppfoljning i ett tydligt jobbsokarflode.",
+    tech: ["Java", "Spring Boot", "PostgreSQL", "React", "Vite", "Tailwind CSS", "Docker"],
     challenge:
-      "Skapa ett enkelt system dar olika roller endast ser ratt data och dar alla kritiska handelser loggas.",
+      "Jobbsokning blev splittrad mellan anteckningar, kalkylblad och olika sajter, vilket gjorde det svart att se pipeline och nasta steg.",
     solution:
-      "Role-based access i API-lagret, tydliga audit-loggar och validering av all inkommande data innan lagring.",
-    image: "/projects/secure-ticketing.svg",
-    accent: "#4ea1ff",
-    links: []
+      "Byggde en JWT-sakrad Spring Boot-API med PostgreSQL och ett React-granssnitt med pipelineoversikt, filtrering och snabb registrering av roller, plus extension-stod for att spara jobb fran Indeed.",
+    image: "/projects/job-application-tracker.png",
+    accent: "#7c83ff",
+    links: [{ label: "GitHub", url: "https://github.com/Nabutte-s/job-application-tracker-2" }]
   },
   {
     slug: "network-health-dashboard",
-    title: "Network Health Dashboard",
+    title: "Network Health Dashboard (Placeholder)",
     period: "2025",
     summary:
       "En dashboard som visualiserar status for servrar och natverksnoder med fokus pa snabb incident-oversikt.",
@@ -235,7 +235,7 @@ export const projects: PortfolioProject[] = [
   },
   {
     slug: "test-automation-lab",
-    title: "Test Automation Lab",
+    title: "Test Automation Lab (Placeholder)",
     period: "2024",
     summary:
       "Ett mindre projekt for att prova teststrategier i en webbapplikation.",

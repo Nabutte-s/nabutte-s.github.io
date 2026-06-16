@@ -70,7 +70,7 @@ export const fileTree: FileTreeNode[] = [
         kind: "folder",
         children: [
           { name: "projects.md", kind: "md", route: "/projects" },
-          { name: "secure-ticketing.md", kind: "md", route: "/projects/secure-ticketing" },
+          { name: "job-application-tracker.md", kind: "md", route: "/projects/job-application-tracker" },
           { name: "network-health-dashboard.md", kind: "md", route: "/projects/network-health-dashboard" },
           { name: "test-automation-lab.md", kind: "md", route: "/projects/test-automation-lab" }
         ]

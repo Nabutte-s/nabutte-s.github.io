@@ -113,6 +113,27 @@ function ProjectView({ slug }: { slug: string }) {
             </div>
           </section>
         </FadeIn>
+
+        {project.links.length > 0 && (
+          <FadeIn delay={0.25}>
+            <section className="mt-6">
+              <h2 className="text-lg font-semibold text-cursor-accent">Lankar</h2>
+              <div className="mt-2 flex flex-wrap gap-3">
+                {project.links.map((link) => (
+                  <a
+                    key={link.url}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded border border-cursor-border px-3 py-1 text-sm text-cursor-accent hover:border-cursor-accent"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </section>
+          </FadeIn>
+        )}
       </article>
     </div>
   );
