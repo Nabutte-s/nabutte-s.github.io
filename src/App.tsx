@@ -6,7 +6,7 @@ import { ActivityBar } from "./components/layout/ActivityBar";
 import { EditorPane, getTabMeta } from "./components/layout/EditorPane";
 import { EditorTabs } from "./components/layout/EditorTabs";
 import { EditorToolbar } from "./components/layout/EditorToolbar";
-import { EmptyEditor } from "./components/layout/EmptyEditor";
+import { WelcomePortfolio } from "./components/content/WelcomePortfolio";
 import { Sidebar } from "./components/layout/Sidebar";
 import { StatusBar } from "./components/layout/StatusBar";
 import { TabBar } from "./components/layout/TabBar";
@@ -103,7 +103,7 @@ function PortfolioShell() {
             {hasOpenFile ? (
               <EditorPane path={currentPath} />
             ) : (
-              <EmptyEditor onOpenFile={() => setPaletteOpen(true)} onNewFile={() => openFile("/about")} />
+              <WelcomePortfolio onOpenFile={openFile} />
             )}
           </div>
         </div>

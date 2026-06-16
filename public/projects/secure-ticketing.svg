@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <rect width="640" height="360" rx="12" fill="#111111"/>
+  <rect x="24" y="24" width="592" height="40" rx="6" fill="#1a1a1a"/>
+  <rect x="24" y="80" width="280" height="120" rx="8" fill="#1f1f1f"/>
+  <rect x="320" y="80" width="296" height="120" rx="8" fill="#1f1f1f"/>
+  <rect x="24" y="216" width="592" height="120" rx="8" fill="#1a1a1a"/>
+  <rect x="40" y="96" width="80" height="12" rx="3" fill="#4ea1ff" opacity="0.8"/>
+  <rect x="40" y="116" width="120" height="8" rx="2" fill="#333"/>
+  <rect x="40" y="132" width="100" height="8" rx="2" fill="#333"/>
+  <rect x="336" y="96" width="60" height="60" rx="30" fill="#264f78"/>
+  <rect x="40" y="232" width="560" height="8" rx="2" fill="#333"/>
+  <rect x="40" y="252" width="480" height="8" rx="2" fill="#333"/>
+  <rect x="40" y="272" width="520" height="8" rx="2" fill="#333"/>
+  <text x="320" y="190" text-anchor="middle" fill="#4ea1ff" font-family="Consolas, monospace" font-size="14" opacity="0.5">Secure Ticketing</text>
+</svg>
