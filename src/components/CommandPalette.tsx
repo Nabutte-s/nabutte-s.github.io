@@ -42,8 +42,11 @@ export function CommandPalette({ files, onOpenFile, open, onOpenChange }: Comman
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/45 p-10">
-      <div className="w-full max-w-xl overflow-hidden rounded-md border border-cursor-border bg-cursor-panelAlt shadow-panel">
+    <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/45 p-10" onClick={() => onOpenChange(false)}>
+      <div
+        className="w-full max-w-xl overflow-hidden rounded-md border border-cursor-border bg-cursor-panel shadow-panel"
+        onClick={(event) => event.stopPropagation()}
+      >
         <div className="border-b border-cursor-border p-2">
           <input
             className="w-full bg-transparent px-2 py-1 text-[13px] outline-none"

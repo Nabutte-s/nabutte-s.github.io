@@ -7,6 +7,7 @@ export default {
         cursor: {
           bg: "#0a0a0a",
           panel: "#111111",
+          panelAlt: "#181818",
           sidebar: "#0a0a0a",
           activity: "#0a0a0a",
           border: "#1f1f1f",
