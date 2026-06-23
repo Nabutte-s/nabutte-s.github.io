@@ -41,6 +41,16 @@ npm run build
 npm run preview
 ```
 
+## Deploy to GitHub Pages
+1. Push your code to GitHub (default branch can be `main` or `master`).
+2. In the repository, open **Settings -> Pages** and set **Source** to **GitHub Actions**.
+3. Ensure this workflow file exists in the repo: `.github/workflows/deploy-pages.yml`.
+4. Push a new commit (or run the workflow manually from the **Actions** tab).
+5. When the workflow finishes, open the deployed URL from the `github-pages` environment.
+
+Final URL format:
+- `https://<github-username>.github.io/<repository-name>/`
+
 ## Where to edit content
 - Main content/data: `src/data/portfolio.ts`
 - Important architectural decisions: `DECISIONS.md`
