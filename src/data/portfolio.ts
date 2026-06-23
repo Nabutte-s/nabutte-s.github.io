@@ -213,6 +213,21 @@ export const sections: PortfolioSection[] = [
 
 export const projects: PortfolioProject[] = [
   {
+    slug: "nightingale-heart",
+    title: "Nightingale Heart (Praktik)",
+    period: "2026",
+    summary:
+      "Praktik hos Nightingale Heart där jag bidrog till kvalitetssäkring och databasarbete på applikationens kartfunktioner.",
+    tech: ["JavaScript", "Testning", "Databas", "Kartor/Maps"],
+    challenge:
+      "Kartdelarna behövde tillförlitlig datahantering och tester som fångade fel innan de nådde användarna.",
+    solution:
+      "Skrev tester för kartfunktionerna och arbetade med databaslogiken bakom kartdatan för att säkra korrekt och stabil visning.",
+    image: "/projects/nightingale.png",
+    accent: "#f48771",
+    links: [{ label: "Webbplats", url: "https://www.nightingaleheart.com/" }]
+  },
+  {
     slug: "job-application-tracker",
     title: "Job Tracker",
     period: "2026",
