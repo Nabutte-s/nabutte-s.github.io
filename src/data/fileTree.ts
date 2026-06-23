@@ -23,6 +23,7 @@ export type FileTreeNode = {
 export const workspaceName = "Protfolio";
 
 export const fileTree: FileTreeNode[] = [
+  { name: "home.md", kind: "md", route: "/" },
   {
     name: "dist",
     kind: "folder",
