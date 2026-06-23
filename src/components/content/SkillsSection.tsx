@@ -19,7 +19,7 @@ export function SkillsSection() {
           title="Kompetenser"
           subtitle={
             <>
-              Fardigheter inom <span className="text-cursor-accent">sakerhet</span>,{" "}
+              Färdigheter inom <span className="text-cursor-accent">säkerhet</span>,{" "}
               <span className="text-cursor-success">utveckling</span> och{" "}
               <span className="text-cursor-warning">test</span>
             </>

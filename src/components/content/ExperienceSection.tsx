@@ -15,7 +15,7 @@ export function ExperienceSection() {
           subtitle={
             <>
               Erfarenhet inom <span className="text-cursor-warning">teknik</span> och{" "}
-              <span className="text-cursor-accent">sakerhet</span>
+              <span className="text-cursor-accent">säkerhet</span>
             </>
           }
         />

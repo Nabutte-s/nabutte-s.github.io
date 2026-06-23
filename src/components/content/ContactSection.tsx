@@ -9,7 +9,7 @@ export function ContactSection() {
     <section className="relative px-8 py-16 md:px-12">
       <AnimatedBackground />
       <div className="relative z-10 mx-auto max-w-4xl">
-        <SectionHeading icon={Mail} title="Kontakt" subtitle="Hor av dig sa kan vi jobba tillsammans" />
+        <SectionHeading icon={Mail} title="Kontakt" subtitle="Hör av dig så kan vi jobba tillsammans" />
 
         <div className="grid gap-8 md:grid-cols-2">
           <FadeIn>
@@ -22,7 +22,7 @@ export function ContactSection() {
               {[
                 { id: "name", label: "Namn", type: "text" },
                 { id: "email", label: "E-post", type: "email" },
-                { id: "company", label: "Foretag", type: "text" }
+                { id: "company", label: "Företag", type: "text" }
               ].map((field) => (
                 <div key={field.id}>
                   <label htmlFor={field.id} className="mb-1 block text-sm text-cursor-textMuted">
