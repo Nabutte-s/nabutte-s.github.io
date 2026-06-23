@@ -26,9 +26,6 @@ function ProjectIndex({ onOpenProject }: { onOpenProject?: (slug: string) => voi
       <article className="relative z-10 mx-auto max-w-4xl px-10 py-8">
         <FadeIn>
           <h1 className="mb-2 text-[28px] font-normal text-cursor-text">Projekt</h1>
-          <p className="mb-8 text-[14px] text-cursor-textMuted">
-            Placeholders som kan bytas ut i <span className="font-mono">src/data/portfolio.ts</span>.
-          </p>
         </FadeIn>
         <div className="space-y-6">
           {projects.map((project, i) => (

@@ -213,6 +213,21 @@ export const sections: PortfolioSection[] = [
 
 export const projects: PortfolioProject[] = [
   {
+    slug: "glasskartan",
+    title: "Glasskartan",
+    period: "2026",
+    summary:
+      "Bidrog till Glasskartan, en app som kartlägger glassställen, med fokus på säkerhet och statistik från användare.",
+    tech: ["Säkerhet", "Statistik/Analytics", "Webb"],
+    challenge:
+      "Appen behövde hantera användardata säkert och samtidigt ge tillförlitlig statistik om hur användarna interagerar.",
+    solution:
+      "Arbetade med säkerhetsaspekter kring användardata och tog fram statistik/analys från användarnas aktivitet för att stötta beslut och vidareutveckling.",
+    image: "/projects/glasskartan-temp.svg",
+    accent: "#4fc1ff",
+    links: [{ label: "Webbplats", url: "https://glasskartan.app/" }]
+  },
+  {
     slug: "nightingale-heart",
     title: "Nightingale Heart (Praktik)",
     period: "2026",
@@ -241,36 +256,6 @@ export const projects: PortfolioProject[] = [
     image: "/projects/job-application-tracker.png",
     accent: "#7c83ff",
     links: [{ label: "GitHub", url: "https://github.com/Nabutte-s/job-application-tracker-2" }]
-  },
-  {
-    slug: "network-health-dashboard",
-    title: "Network Health Dashboard (Placeholder)",
-    period: "2025",
-    summary:
-      "En dashboard som visualiserar status för servrar och nätverksnoder med fokus på snabb incident-översikt.",
-    tech: ["React", "Tailwind", "Express", "MongoDB"],
-    challenge:
-      "Göra driftstatus tydlig och snabb att läsa i stressade situationer.",
-    solution:
-      "Färgkodad status, tidslinje för incidenter och filtrering på miljö, tjänst och allvarlighetsgrad.",
-    image: "/projects/network-health.svg",
-    accent: "#89d185",
-    links: []
-  },
-  {
-    slug: "test-automation-lab",
-    title: "Test Automation Lab (Placeholder)",
-    period: "2024",
-    summary:
-      "Ett mindre projekt för att prova teststrategier i en webbapplikation.",
-    tech: ["Java", "JavaScript", "Playwright", "GitHub Actions"],
-    challenge:
-      "Kombinera manuell testplanering med automatiserade tester utan att göra processen tung.",
-    solution:
-      "Riskbaserad testplan, ett mindre men stabilt regressionspaket och CI-körning vid varje pull request.",
-    image: "/projects/test-automation.svg",
-    accent: "#c586c0",
-    links: []
   }
 ];
 
