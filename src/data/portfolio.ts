@@ -50,7 +50,7 @@ export const profile = {
   location: "Malmö",
   phone: "0708148167",
   email: "stuff___3@hotmail.com",
-  avatar: "/profile.svg",
+  avatar: "/profile.png",
   status: "Söker jobb",
   roles: ["IT-säkerhet", "Systemutveckling", "Webbutveckling", "Applikationstestning"],
   tagline:
