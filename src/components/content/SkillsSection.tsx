@@ -55,15 +55,17 @@ export function SkillsSection() {
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: i * 0.08 }}
-                  className="flex flex-col items-center gap-2"
+                  className="flex w-[5.5rem] flex-col items-center gap-2"
                 >
                   <div
-                    className="flex h-16 w-16 items-center justify-center rounded-xl border border-cursor-border bg-cursor-panel text-lg font-bold transition hover:scale-105 hover:border-cursor-accent/50"
+                    className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-cursor-border bg-cursor-panel text-lg font-bold transition hover:scale-105 hover:border-cursor-accent/50"
                     style={{ color: item.color }}
                   >
                     {item.abbr}
                   </div>
-                  <span className="text-xs text-cursor-accent">{item.name}</span>
+                  <span className="w-full text-center text-xs leading-tight text-cursor-accent">
+                    {item.name}
+                  </span>
                 </motion.div>
               ))}
             </div>

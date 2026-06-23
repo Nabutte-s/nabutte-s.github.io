@@ -111,7 +111,10 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "IT-säkerhet", abbr: "SEC", color: "#f48771" },
       { name: "Penetrationstest", abbr: "PEN", color: "#ce9178" },
-      { name: "Nätverk", abbr: "NET", color: "#4ec9b0" }
+      { name: "Nätverk", abbr: "NET", color: "#4ec9b0" },
+      { name: "Windows-säkerhet", abbr: "WIN", color: "#4fc1ff" },
+      { name: "Cisco", abbr: "CSC", color: "#569cd6" },
+      { name: "IT-juridik", abbr: "LAW", color: "#d7ba7d" }
     ]
   },
   {
@@ -120,7 +123,10 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "Java", abbr: "JV", color: "#d7ba7d" },
       { name: "JavaScript", abbr: "JS", color: "#dcdcaa" },
-      { name: "HTML/CSS", abbr: "WEB", color: "#569cd6" }
+      { name: "HTML/CSS", abbr: "WEB", color: "#569cd6" },
+      { name: "Spring Boot", abbr: "SPR", color: "#89d185" },
+      { name: "React", abbr: "RE", color: "#4fc1ff" },
+      { name: "TypeScript", abbr: "TS", color: "#4ec9b0" }
     ]
   },
   {
@@ -138,7 +144,10 @@ export const skillCategories: SkillCategory[] = [
     items: [
       { name: "Linux", abbr: "LX", color: "#cccccc" },
       { name: "Python", abbr: "PY", color: "#4ec9b0" },
-      { name: "Git", abbr: "GIT", color: "#f14c28" }
+      { name: "Git", abbr: "GIT", color: "#f14c28" },
+      { name: "Docker", abbr: "DK", color: "#569cd6" },
+      { name: "PostgreSQL", abbr: "PG", color: "#4fc1ff" },
+      { name: "GitHub Actions", abbr: "GHA", color: "#89d185" }
     ]
   }
 ];
