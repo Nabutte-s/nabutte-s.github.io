@@ -48,7 +48,7 @@ function ProjectIndex({ onOpenProject }: { onOpenProject?: (slug: string) => voi
                         onClick={() => onOpenProject(project.slug)}
                         className="mt-3 text-sm text-cursor-accent hover:underline"
                       >
-                        Oppna projekt
+                        Öppna projekt
                       </button>
                     )}
                   </div>
@@ -96,7 +96,7 @@ function ProjectView({ slug }: { slug: string }) {
 
         <FadeIn delay={0.15}>
           <section className="mt-6">
-            <h2 className="text-lg font-semibold text-cursor-success">Losning</h2>
+            <h2 className="text-lg font-semibold text-cursor-success">Lösning</h2>
             <p className="mt-2 text-[14px] leading-7">{project.solution}</p>
           </section>
         </FadeIn>
@@ -117,7 +117,7 @@ function ProjectView({ slug }: { slug: string }) {
         {project.links.length > 0 && (
           <FadeIn delay={0.25}>
             <section className="mt-6">
-              <h2 className="text-lg font-semibold text-cursor-accent">Lankar</h2>
+              <h2 className="text-lg font-semibold text-cursor-accent">Länkar</h2>
               <div className="mt-2 flex flex-wrap gap-3">
                 {project.links.map((link) => (
                   <a
@@ -178,7 +178,7 @@ function LanguagesView() {
       <AnimatedBackground />
       <article className="relative z-10 mx-auto max-w-4xl px-10 py-8">
         <FadeIn>
-          <h1 className="mb-8 text-[28px] font-normal">Sprak</h1>
+          <h1 className="mb-8 text-[28px] font-normal">Språk</h1>
         </FadeIn>
         <div className="grid gap-4 sm:grid-cols-2">
           {languages.map((lang, i) => (

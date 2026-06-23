@@ -133,7 +133,7 @@ export function Sidebar({ activeView, currentPath, onOpenFile }: SidebarProps) {
     return (
       <SidebarPanel title="Search">
         <p className="px-3 py-2 text-[13px] text-cursor-textMuted">
-          Tryck <span className="rounded bg-cursor-hover px-1">Ctrl + P</span> for att oppna filer.
+          Tryck <span className="rounded bg-cursor-hover px-1">Ctrl + P</span> för att öppna filer.
         </p>
       </SidebarPanel>
     );
@@ -142,7 +142,7 @@ export function Sidebar({ activeView, currentPath, onOpenFile }: SidebarProps) {
   if (activeView === "git") {
     return (
       <SidebarPanel title="Source Control">
-        <p className="px-3 py-2 text-[13px] text-cursor-textMuted">Inga staged andringar.</p>
+        <p className="px-3 py-2 text-[13px] text-cursor-textMuted">Inga staged ändringar.</p>
       </SidebarPanel>
     );
   }

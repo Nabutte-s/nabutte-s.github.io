@@ -13,16 +13,16 @@ type AIChatPanelProps = {
 
 function answerForPrompt(prompt: string): string {
   switch (prompt) {
-    case "Vad gor dig stark inom IT-sakerhet?":
-      return "Jag kombinerar sakerhet och utveckling: utbildning i penetrationstestning, Linux/Windows-sakerhet och praktisk erfarenhet av testning och kodgranskning.";
-    case "Vilken typ av roll soker du?":
-      return "Jag soker roller dar systemutveckling och IT-sakerhet motes, exempelvis junior utvecklare med sakerhetsfokus eller test/infrastruktur nara utvecklingsteam.";
+    case "Vad gör dig stark inom IT-säkerhet?":
+      return "Jag kombinerar säkerhet och utveckling: utbildning i penetrationstestning, Linux/Windows-säkerhet och praktisk erfarenhet av testning och kodgranskning.";
+    case "Vilken typ av roll söker du?":
+      return "Jag söker roller där systemutveckling och IT-säkerhet möts, exempelvis junior utvecklare med säkerhetsfokus eller test/infrastruktur nära utvecklingsteam.";
     case "Hur kombinerar du test och utveckling?":
-      return "Jag arbetar riskbaserat: planerar tester tidigt, granskar kod och automatiserar regressionskritiska floden for att minska fel i produktion.";
+      return "Jag arbetar riskbaserat: planerar tester tidigt, granskar kod och automatiserar regressionskritiska flöden för att minska fel i produktion.";
     case "Visa dina kontaktuppgifter":
       return `${profile.name}, ${profile.location}. E-post: ${profile.email}. Telefon: ${profile.phone}. GitHub: ${socialLinks[0]?.url ?? ""}. LinkedIn: ${socialLinks[1]?.url ?? ""}`;
     default:
-      return "Jag har inte ett svar for den fragan an.";
+      return "Jag har inte ett svar för den frågan än.";
   }
 }
 
@@ -30,18 +30,18 @@ export function AIChatPanel({ onClose }: AIChatPanelProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
-      text: `Hej! Jag ar Cursor-assistenten for ${profile.name}. Fraga om bakgrund, projekt eller kontaktuppgifter.`
+      text: `Hej! Jag är Cursor-assistenten för ${profile.name}. Fråga om bakgrund, projekt eller kontaktuppgifter.`
     }
   ]);
 
   const promptSuggestions = useMemo(
-    () => [...chatPrompts, `Hur manga projekt finns just nu? (${projects.length})`],
+    () => [...chatPrompts, `Hur många projekt finns just nu? (${projects.length})`],
     []
   );
 
   const sendPrompt = (prompt: string) => {
     const assistantText =
-      prompt.startsWith("Hur manga projekt")
+      prompt.startsWith("Hur många projekt")
         ? `Det finns ${projects.length} placeholder-projekt i datan just nu.`
         : answerForPrompt(prompt);
 
@@ -76,7 +76,7 @@ export function AIChatPanel({ onClose }: AIChatPanelProps) {
         ))}
       </div>
       <div className="border-t border-cursor-border p-3">
-        <p className="mb-2 text-xs uppercase text-cursor-textMuted">Snabbfragor</p>
+        <p className="mb-2 text-xs uppercase text-cursor-textMuted">Snabbfrågor</p>
         <div className="flex flex-wrap gap-2">
           {promptSuggestions.map((prompt) => (
             <button

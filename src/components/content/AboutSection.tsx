@@ -14,9 +14,9 @@ export function AboutSection() {
           title="Om mig"
           subtitle={
             <>
-              Jag ar <span className="text-cursor-success">specialiserad</span> pa{" "}
-              <span className="text-cursor-accent">saker utveckling</span> och{" "}
-              <span className="text-cursor-warning">kvalitetssakrad testning</span>
+              Jag är <span className="text-cursor-success">specialiserad</span> på{" "}
+              <span className="text-cursor-accent">säker utveckling</span> och{" "}
+              <span className="text-cursor-warning">kvalitetssäkrad testning</span>
             </>
           }
         />
@@ -25,11 +25,11 @@ export function AboutSection() {
           <FadeIn delay={0.1}>
             <p className="text-[14px] leading-7 text-cursor-text">{profile.intro}</p>
             <p className="mt-4 text-[14px] leading-7 text-cursor-textMuted">
-              Jag ar engagerad och ser fram emot nya utmaningar dar sakerhet och utveckling mots.
+              Jag är engagerad och ser fram emot nya utmaningar där säkerhet och utveckling möts.
             </p>
 
             <div className="mt-8">
-              <h4 className="mb-3 text-sm font-medium text-cursor-accent">| Sprak</h4>
+              <h4 className="mb-3 text-sm font-medium text-cursor-accent">| Språk</h4>
               <div className="space-y-2">
                 {languages.map((lang) => (
                   <div key={lang.name} className="flex items-baseline gap-2 text-sm">

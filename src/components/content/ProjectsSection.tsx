@@ -19,7 +19,7 @@ export function ProjectsSection({ onOpenProject }: ProjectsSectionProps) {
           title="Mina projekt"
           subtitle={
             <>
-              Utvalda <span className="text-cursor-warning">projekt</span> inom sakerhet och utveckling
+              Utvalda <span className="text-cursor-warning">projekt</span> inom säkerhet och utveckling
             </>
           }
         />
@@ -47,7 +47,7 @@ export function ProjectsSection({ onOpenProject }: ProjectsSectionProps) {
                       onClick={() => onOpenProject(project.slug)}
                       className="mt-4 inline-flex items-center gap-1 text-sm text-cursor-accent hover:underline"
                     >
-                      Las mer
+                      Läs mer
                       <ArrowRight size={14} />
                     </button>
                   </div>

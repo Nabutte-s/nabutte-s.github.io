@@ -46,17 +46,17 @@ export type LanguageEntry = {
 
 export const profile = {
   name: "Christoffer Svensson",
-  title: "IT-sakerhetsspecialist & Systemutvecklare",
-  location: "Malmo",
+  title: "IT-säkerhetsspecialist & Systemutvecklare",
+  location: "Malmö",
   phone: "0708148167",
   email: "stuff___3@hotmail.com",
   avatar: "/profile.svg",
-  status: "Soker jobb",
-  roles: ["IT-sakerhet", "Systemutveckling", "Webbutveckling", "Applikationstestning"],
+  status: "Söker jobb",
+  roles: ["IT-säkerhet", "Systemutveckling", "Webbutveckling", "Applikationstestning"],
   tagline:
-    "IT-sakerhetsspecialist och systemutvecklare med fokus pa sakra, testade och valunderhallna losningar.",
+    "IT-säkerhetsspecialist och systemutvecklare med fokus på säkra, testade och välunderhållna lösningar.",
   intro:
-    "Jag ar en IT-sakerhetsspecialist och systemutvecklare som kombinerar sakerhetstank med utvecklingskompetens. Med utbildning inom IT-sakerhet, natverk, penetrationstestning, Java-programmering, webbutveckling och applikationstestning vill jag bidra till sakra och kvalitetssakrade IT-losningar."
+    "Jag är en IT-säkerhetsspecialist och systemutvecklare som kombinerar säkerhetstänk med utvecklingskompetens. Med utbildning inom IT-säkerhet, nätverk, penetrationstestning, Java-programmering, webbutveckling och applikationstestning vill jag bidra till säkra och kvalitetssäkrade IT-lösningar."
 };
 
 export const socialLinks = [
@@ -70,22 +70,22 @@ export const socialLinks = [
 export const education: EducationEntry[] = [
   {
     degree: "Systemutvecklare med testinriktning",
-    school: "JENSEN education, Malmo",
+    school: "JENSEN education, Malmö",
     period: "2024 - 2026",
     details: ["Java, webbutveckling (HTML, CSS, JavaScript)", "Applikationstestning, testplanering och kodgranskning"]
   },
   {
-    degree: "IT-sakerhetsspecialist",
-    school: "Stockholms Internationella Handelsskola, Malmo",
+    degree: "IT-säkerhetsspecialist",
+    school: "Stockholms Internationella Handelsskola, Malmö",
     period: "2020 - 2022",
     details: [
-      "Linux- och Windows-sakerhet, Cisco, affarsmannaskap och IT-juridik",
-      "Penetrationstestning av natverk samt en kort Python-kurs"
+      "Linux- och Windows-säkerhet, Cisco, affärsmannaskap och IT-juridik",
+      "Penetrationstestning av nätverk samt en kort Python-kurs"
     ]
   },
   {
-    degree: "Allman linje",
-    school: "Onnestads folkhogskola, Onnestad",
+    degree: "Allmän linje",
+    school: "Önnestads folkhögskola, Önnestad",
     period: "2016 - 2017",
     details: []
   }
@@ -97,9 +97,9 @@ export const experience: ExperienceEntry[] = [
     company: "Kristianstad kommun",
     role: "VA-tekniker",
     bullets: [
-      "Installation, reparation och underhall av VA-anlaggningar.",
-      "Felsokning och efterlevnad av sakerhetsstandarder.",
-      "Noggrann dokumentation och effektivt teamsamarbete for hog kvalitet och sakerhet."
+      "Installation, reparation och underhåll av VA-anläggningar.",
+      "Felsökning och efterlevnad av säkerhetsstandarder.",
+      "Noggrann dokumentation och effektivt teamsamarbete för hög kvalitet och säkerhet."
     ]
   }
 ];
@@ -107,11 +107,11 @@ export const experience: ExperienceEntry[] = [
 export const skillCategories: SkillCategory[] = [
   {
     id: "security",
-    label: "Sakerhet",
+    label: "Säkerhet",
     items: [
-      { name: "IT-sakerhet", abbr: "SEC", color: "#f48771" },
+      { name: "IT-säkerhet", abbr: "SEC", color: "#f48771" },
       { name: "Penetrationstest", abbr: "PEN", color: "#ce9178" },
-      { name: "Natverk", abbr: "NET", color: "#4ec9b0" }
+      { name: "Nätverk", abbr: "NET", color: "#4ec9b0" }
     ]
   },
   {
@@ -144,7 +144,7 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const languages: LanguageEntry[] = [
-  { name: "Svenska", level: "Modersmal" },
+  { name: "Svenska", level: "Modersmål" },
   { name: "Engelska", level: "Flytande" }
 ];
 
@@ -155,7 +155,7 @@ export const sections: PortfolioSection[] = [
     route: "/about",
     content: [
       profile.intro,
-      "Jag ar engagerad och ser fram emot nya utmaningar dar sakerhet och utveckling mots."
+      "Jag är engagerad och ser fram emot nya utmaningar där säkerhet och utveckling möts."
     ]
   },
   {
@@ -208,12 +208,12 @@ export const projects: PortfolioProject[] = [
     title: "Job Tracker",
     period: "2026",
     summary:
-      "Ett fullstack-projekt for att samla ansokningar, statusar och uppfoljning i ett tydligt jobbsokarflode.",
+      "Ett fullstack-projekt för att samla ansökningar, statusar och uppföljning i ett tydligt jobbsökarflöde.",
     tech: ["Java", "Spring Boot", "PostgreSQL", "React", "Vite", "Tailwind CSS", "Docker"],
     challenge:
-      "Jobbsokning blev splittrad mellan anteckningar, kalkylblad och olika sajter, vilket gjorde det svart att se pipeline och nasta steg.",
+      "Jobbsökning blev splittrad mellan anteckningar, kalkylblad och olika sajter, vilket gjorde det svårt att se pipeline och nästa steg.",
     solution:
-      "Byggde en JWT-sakrad Spring Boot-API med PostgreSQL och ett React-granssnitt med pipelineoversikt, filtrering och snabb registrering av roller, plus extension-stod for att spara jobb fran Indeed.",
+      "Byggde en JWT-säkrad Spring Boot-API med PostgreSQL och ett React-gränssnitt med pipelineöversikt, filtrering och snabb registrering av roller, plus extension-stöd för att spara jobb från Indeed.",
     image: "/projects/job-application-tracker.png",
     accent: "#7c83ff",
     links: [{ label: "GitHub", url: "https://github.com/Nabutte-s/job-application-tracker-2" }]
@@ -223,12 +223,12 @@ export const projects: PortfolioProject[] = [
     title: "Network Health Dashboard (Placeholder)",
     period: "2025",
     summary:
-      "En dashboard som visualiserar status for servrar och natverksnoder med fokus pa snabb incident-oversikt.",
+      "En dashboard som visualiserar status för servrar och nätverksnoder med fokus på snabb incident-översikt.",
     tech: ["React", "Tailwind", "Express", "MongoDB"],
     challenge:
-      "Gora driftstatus tydlig och snabb att lasa i stressade situationer.",
+      "Göra driftstatus tydlig och snabb att läsa i stressade situationer.",
     solution:
-      "Fargkodad status, tidslinje for incidenter och filtrering pa miljo, tjanst och allvarlighetsgrad.",
+      "Färgkodad status, tidslinje för incidenter och filtrering på miljö, tjänst och allvarlighetsgrad.",
     image: "/projects/network-health.svg",
     accent: "#89d185",
     links: []
@@ -238,12 +238,12 @@ export const projects: PortfolioProject[] = [
     title: "Test Automation Lab (Placeholder)",
     period: "2024",
     summary:
-      "Ett mindre projekt for att prova teststrategier i en webbapplikation.",
+      "Ett mindre projekt för att prova teststrategier i en webbapplikation.",
     tech: ["Java", "JavaScript", "Playwright", "GitHub Actions"],
     challenge:
-      "Kombinera manuell testplanering med automatiserade tester utan att gora processen tung.",
+      "Kombinera manuell testplanering med automatiserade tester utan att göra processen tung.",
     solution:
-      "Riskbaserad testplan, ett mindre men stabilt regressionspaket och CI-korning vid varje pull request.",
+      "Riskbaserad testplan, ett mindre men stabilt regressionspaket och CI-körning vid varje pull request.",
     image: "/projects/test-automation.svg",
     accent: "#c586c0",
     links: []
@@ -251,8 +251,8 @@ export const projects: PortfolioProject[] = [
 ];
 
 export const chatPrompts = [
-  "Vad gor dig stark inom IT-sakerhet?",
-  "Vilken typ av roll soker du?",
+  "Vad gör dig stark inom IT-säkerhet?",
+  "Vilken typ av roll söker du?",
   "Hur kombinerar du test och utveckling?",
   "Visa dina kontaktuppgifter"
 ];
