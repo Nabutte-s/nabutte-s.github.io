@@ -223,7 +223,7 @@ export const projects: PortfolioProject[] = [
       "Appen behövde hantera användardata säkert och samtidigt ge tillförlitlig statistik om hur användarna interagerar.",
     solution:
       "Arbetade med säkerhetsaspekter kring användardata och tog fram statistik/analys från användarnas aktivitet för att stötta beslut och vidareutveckling.",
-    image: "/projects/glasskartan-temp.svg",
+    image: "/projects/glasskartan.png",
     accent: "#4fc1ff",
     links: [{ label: "Webbplats", url: "https://glasskartan.app/" }]
   },
